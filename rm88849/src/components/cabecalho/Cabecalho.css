@@ -1,0 +1,50 @@
+.menu{
+    
+    width: 1920px;
+    height: 64px;
+}
+
+.menu li{
+    display: inline;
+    background-color: black;
+    color: grey;
+    margin-top: 40px;
+    padding: 10px 20px 10px 10px;
+}
+
+.titulo{
+    width: 876px;
+    height: 270px;
+}
+
+.titulo h1{
+    width: 876px;
+    height: 109px;
+    color: #262626;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.titulo p{
+    width: 876px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.data{
+    width: 876px;
+    height: 25px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4d4d4d;
+    font-style: normal;
+}
+
+nav{
+    width: 967.95px;
+    height: 76.1px;
+}

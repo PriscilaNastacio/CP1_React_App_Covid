@@ -1,0 +1,55 @@
+.cnn {
+    width: 130px;
+    height: 87px;
+    float: right;
+    margin: 0; 
+    position: static;
+    display: block;
+         
+}
+
+.cnn1{
+    width: 640px;
+    height: 117px;
+    background-color: rgb(202, 198, 198);
+}
+.container{
+    width: 1160px;
+    height: 0px;
+}
+.materia {
+    width: 892px;
+    height: 665px;
+}
+
+.covid {
+    width: 744px;
+    height: 377px;
+}
+
+.parag1 {
+    width: 744px;
+    height: 84px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: .01em;
+    color: #262626;
+    font-weight: 300;
+
+}
+
+.parag2 {
+    width: 744px;
+    height: 140px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: .01em;
+    color: #262626;
+    font-weight: 300;
+}
+
+.cor{
+    text-decoration: underline;
+    color: cornflowerblue;
+    font-weight: bold;
+}
