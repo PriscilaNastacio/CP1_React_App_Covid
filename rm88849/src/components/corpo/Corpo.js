@@ -1,4 +1,6 @@
 import React from 'react'
+import Menu from '../menu/Menu'
+import Cabecalho from '../cabecalho/Cabecalho'
 import logo from '../img/logo.svg'
 import '../corpo/Corpo.css'
 
@@ -9,7 +11,8 @@ export default function Corpo() {
     return (
 
         <>
-        
+        <Menu/>
+        <Cabecalho/>
         <div className="container">
             <div className="materia">
 
