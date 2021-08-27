@@ -7,11 +7,14 @@ import '../corpo/Corpo.css'
 
 export default function Corpo() {
 
+    const menu=""
+    const listaMenu = ['Nacional','Business','Internacional','Saúde','Tecnologia','Esporte','Entretenimento','Estilo','Viagem & Gastronomia', 'Newsletters','Podcasts']
+
     
     return (
 
         <>
-        <Menu/>
+        <Menu menu={listaMenu}/>
         <Cabecalho/>
         <div className="container">
             <div className="materia">

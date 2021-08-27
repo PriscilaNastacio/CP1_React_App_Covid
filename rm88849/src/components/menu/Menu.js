@@ -1,27 +1,24 @@
 import React from 'react'
 import '../menu/Menu.css'
 
-export default function Menu() {
+export default function Menu(props) {
+
+    const listaMenu = props.menu.map(
+        (c, i) =>
+            <li key={i}>{c}</li>
+    )
 
     return (
         <>
-            <nav>
-                <div className="menu">
-                    <ul>
-                        <li>Nacional</li>
-                        <li>Business</li>
-                        <li>Internacional</li>
-                        <li>Saúde</li>
-                        <li>Tecnologia</li>
-                        <li>Esporte</li>
-                        <li>Entretenimento</li>
-                        <li>Estilo</li>
-                        <li>Viagem &amp; gastronomia</li>
-                        <li>Newsletters</li>
-                        <li>Podcasts</li>
-                    </ul>
+            <header className="header__group">
+                <div className="header__main">
+                    <nav id="content_menu" className="content_menu">
+                        <ul id="menu-menu-header" className="menu">
+                            {listaMenu}
+                        </ul>
+                    </nav>
                 </div>
-            </nav>
+            </header>
         </>
     )
 }

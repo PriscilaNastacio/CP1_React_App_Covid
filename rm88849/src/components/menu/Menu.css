@@ -1,0 +1,13 @@
+.menu{
+    
+    width: 1920px;
+    height: 64px;
+}
+
+.menu li{
+    display: inline-flex;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 40px;
+    padding: 10px 20px 10px 10px;
+}

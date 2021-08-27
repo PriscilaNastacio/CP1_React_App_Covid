@@ -5,13 +5,12 @@
     margin: 0; 
     position: static;
     display: block;
-         
-}
+  }
 
 .cnn1{
     width: 640px;
     height: 117px;
-    background-color: rgb(202, 198, 198);
+    background-color: #cac6c6;
 }
 .container{
     width: 1160px;
@@ -35,7 +34,6 @@
     letter-spacing: .01em;
     color: #262626;
     font-weight: 300;
-
 }
 
 .parag2 {
@@ -50,6 +48,6 @@
 
 .cor{
     text-decoration: underline;
-    color: cornflowerblue;
+    color: #6495ed;
     font-weight: bold;
 }
