@@ -40,7 +40,7 @@ export default function Cabecalho() {
                 </h1>
                 <hr />
                 <p>A infecção causada pela variante Delta pode provocar sintomas diferentes da doença causada pela linhagem original do novo coronavírus</p>
-                <img src={author} />
+                <section><img src={author} /></section>
                 <hr />
                 <p className="data"><span>{str_data} às {str_hora}</span> | Atualizado às {str_hora}</p>
 

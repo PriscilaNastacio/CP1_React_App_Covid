@@ -5,12 +5,14 @@
     margin: 0; 
     position: static;
     display: block;
+    justify-content: right;
   }
 
 .cnn1{
     width: 640px;
     height: 117px;
     background-color: #cac6c6;
+    
 }
 .container{
     width: 1160px;
@@ -22,6 +24,8 @@
 }
 
 .covid {
+    
+    margin-top: 65px;
     width: 744px;
     height: 377px;
 }
@@ -50,4 +54,12 @@
     text-decoration: underline;
     color: #6495ed;
     font-weight: bold;
+}
+
+.posts{
+    width: 892px;
+    height: 665px;
+    margin-right: 300px;
+    margin-left: 180px;
+
 }
