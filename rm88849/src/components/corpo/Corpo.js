@@ -13,9 +13,9 @@ export default function Corpo() {
     return (
 
         <>
-            <Menu menu={listaMenu} />
+            <Menu menu={listaMenu}/>
             <main className='posts'>
-                <Cabecalho />
+                <Cabecalho/>
                 <div className="container">
                     <div className="materia">
 
