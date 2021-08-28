@@ -11,7 +11,7 @@ export default function Menu(props) {
     return (
         <>
             <header className="header__group">
-                <div className="header__main">
+                <div className="header_main">
                     <nav id="content_menu" className="content_menu">
                         <ul id="menu-menu-header" className="menu">
                             {listaMenu}

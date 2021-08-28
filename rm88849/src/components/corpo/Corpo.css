@@ -1,37 +1,25 @@
-.cnn {
-    width: 130px;
-    height: 87px;
+.post_content{
+    max-width: 744px;
+    max-height: 377px;
+}
+
+.riddle-target{
+    max-width: 640px;
+    max-height: 117px;
+}
+
+.custom-logo{
+    max-width: 130px;
+    max-height: 87px;
     float: right;
-    margin: 0; 
+    margin: 0;
     position: static;
     display: block;
-    justify-content: right;
-  }
-
-.cnn1{
-    width: 640px;
-    height: 117px;
-    background-color: #cac6c6;
-    
-}
-.container{
-    width: 1160px;
-    height: 0px;
-}
-.materia {
-    width: 892px;
-    height: 665px;
-}
-
-.covid {
-    margin-top: 65px;
-    width: 744px;
-    height: 377px;
 }
 
 .parag1 {
-    width: 744px;
-    height: 84px;
+    max-width: 744px;
+    max-height: 84px;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: .01em;
@@ -40,8 +28,8 @@
 }
 
 .parag2 {
-    width: 744px;
-    height: 140px;
+    max-width: 744px;
+    max-height: 140px;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: .01em;
@@ -55,10 +43,25 @@
     font-weight: bold;
 }
 
-.posts{
-    width: 892px;
-    height: 665px;
-    margin-right: 300px;
-    margin-left: 180px;
-
+.posts.col{
+    max-width: 892px;
+    max-height: 665px;
+    display: flex;
 }
+
+.row{
+    max-width: 1264px;
+    max-height: 665px;
+}
+
+.site_content{
+    max-width: 1920px;
+    max-height: 665px;
+}
+
+.container_sm{
+    max-width: 1160px;
+    max-height: 0px;
+}
+
+

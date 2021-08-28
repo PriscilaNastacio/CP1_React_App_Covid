@@ -34,17 +34,25 @@ export default function Cabecalho() {
     return (
         <>
 
-            <header className="titulo">
-                <h1>
+            <header className="post_header">
+                <h1 className='post_title'>
                     Quais são os sintomas da variante Delta da Covid-19? Teste seus conhecimentos
                 </h1>
                 <hr />
-                <p>A infecção causada pela variante Delta pode provocar sintomas diferentes da doença causada pela linhagem original do novo coronavírus</p>
-                <section><img src={author} /></section>
-                <hr />
-                <p className="data"><span>{str_data} às {str_hora}</span> | Atualizado às {str_hora}</p>
+                <p className='post_excerpt'>A infecção causada pela variante Delta pode provocar sintomas diferentes da doença causada pela linhagem original do novo coronavírus</p>
 
+                <section className='author_content'>
+                    <figure className="author_image">
+                        <img src={author} />
+                    </figure>
+                </section>
+
+                <hr />
+                <div className='higher_share'>
+                    <span className='post_data'>{str_data} às {str_hora} | Atualizado às {str_hora}</span>
+                </div>
             </header>
+
         </>
 
     )
