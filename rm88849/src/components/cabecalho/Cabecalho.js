@@ -11,10 +11,9 @@ export default function Cabecalho() {
     var ano = data.getFullYear();
     var dataAtual = dia + '/' + mes + '/' + ano;
 
-    // Obtém a data/hora atual
+
     var data = new Date();
 
-    // Guarda cada pedaço em uma variável
     var dia = data.getDate();           // 1-31
     var dia_sem = data.getDay();            // 0-6 (zero=domingo)
     var mes = data.getMonth();          // 0-11 (zero=janeiro)
@@ -33,25 +32,26 @@ export default function Cabecalho() {
 
     return (
         <>
+            <div className='color_page'>
+                <header className="post_header">
+                    <h1 className='post_title'>
+                        Quais são os sintomas da variante Delta da Covid-19? Teste seus conhecimentos
+                    </h1>
+                    <hr />
+                    <p className='post_excerpt'>A infecção causada pela variante Delta pode provocar sintomas diferentes da doença causada pela linhagem original do novo coronavírus</p>
 
-            <header className="post_header">
-                <h1 className='post_title'>
-                    Quais são os sintomas da variante Delta da Covid-19? Teste seus conhecimentos
-                </h1>
-                <hr />
-                <p className='post_excerpt'>A infecção causada pela variante Delta pode provocar sintomas diferentes da doença causada pela linhagem original do novo coronavírus</p>
+                    <section className='author_content'>
+                        <figure className="author_image">
+                            <img src={author} />
+                        </figure>
+                    </section>
 
-                <section className='author_content'>
-                    <figure className="author_image">
-                        <img src={author} />
-                    </figure>
-                </section>
-
-                <hr />
-                <div className='higher_share'>
-                    <span className='post_data'>{str_data} às {str_hora} | Atualizado às {str_hora}</span>
-                </div>
-            </header>
+                    <hr />
+                    <div className='higher_share'>
+                        <span className='post_data'>{str_data} às {str_hora} | Atualizado às {str_hora}</span>
+                    </div>
+                </header>
+            </div>
 
         </>
 

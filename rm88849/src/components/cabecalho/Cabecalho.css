@@ -1,6 +1,9 @@
 .post_header{
     max-width: 876px;
     max-height: 270px;
+    margin-left: 225px;
+    
+   
 }
 
 .post_title{
@@ -10,6 +13,8 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .post_excerpt{
@@ -19,6 +24,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .author_content{
@@ -38,6 +44,7 @@
     max-width: 876px;
     max-height: 25px;
     display: flex;
+
 }
 
 .post_data{
@@ -49,4 +56,5 @@
     line-height: 16px;
     color: #4d4d4d;
     font-style: normal;
-}
+    font-family: Arial, Helvetica, sans-serif;
+ }

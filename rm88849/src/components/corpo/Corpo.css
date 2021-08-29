@@ -1,40 +1,54 @@
 .post_content{
-    max-width: 744px;
-    max-height: 377px;
+    width: 744px;
+    height: 377px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 25px;
+    margin-left: 264px;
+    
 }
 
-.riddle-target{
-    max-width: 640px;
-    max-height: 117px;
+.logo{
+    width: 640px;
+    height: 117px;
+    background-color: #f0eaeab6;
+    margin-left: 53px;
+    
 }
 
 .custom-logo{
-    max-width: 130px;
-    max-height: 87px;
+    width: 130px;
+    height: 87px;
     float: right;
     margin: 0;
     position: static;
     display: block;
+    padding: 15px;
+    
 }
 
 .parag1 {
-    max-width: 744px;
-    max-height: 84px;
+    width: 744px;
+    height: 84px;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: .01em;
     color: #262626;
     font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .parag2 {
-    max-width: 744px;
-    max-height: 140px;
+    width: 744px;
+    height: 140px;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: .01em;
     color: #262626;
     font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cor{
@@ -44,24 +58,29 @@
 }
 
 .posts.col{
-    max-width: 892px;
-    max-height: 665px;
+    width: 892px;
+    height: 665px;
     display: flex;
+    justify-content: space-around;
+    margin: auto;
+    
 }
 
 .row{
-    max-width: 1264px;
-    max-height: 665px;
+    width: 1264px;
+    height: 665px;
+    display: flex;
 }
 
 .site_content{
     max-width: 1920px;
     max-height: 665px;
+    background-color: #f3f3f3c2;
+    
 }
 
 .container_sm{
     max-width: 1160px;
     max-height: 0px;
+     
 }
-
-

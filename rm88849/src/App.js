@@ -4,15 +4,14 @@ import '../src/App.css'
 
 
 
-export default function App(){
+export default function App() {
 
-    return(
+    return (
 
         <>
-        
-        <div className='content'>
-            <Corpo/>
-        </div>
+            <div className='container'>
+                <Corpo />
+            </div>
         </>
     )
 }
