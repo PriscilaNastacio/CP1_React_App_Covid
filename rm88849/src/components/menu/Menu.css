@@ -40,7 +40,7 @@
 }
 
 .menu :hover{
-
+    display: flex;
     background-color: #e7e4e4;
    
 }
