@@ -1,0 +1,60 @@
+.post_header{
+    max-width: 876px;
+    max-height: 270px;
+    margin-left: 225px;
+    
+   
+}
+
+.post_title{
+    max-width: 876px;
+    max-height: 109px;
+    color: #262626;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.post_excerpt{
+    max-width: 876px;
+    max-height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.author_content{
+    max-width: 876px;
+    max-height: 32px;
+}
+
+.author_image{
+    max-width: 876px;
+    max-height: 32px;
+    margin-bottom: 35px;
+    margin-left: 0%;
+    
+}
+
+.higher_share{
+    max-width: 876px;
+    max-height: 25px;
+    display: flex;
+
+}
+
+.post_data{
+    max-width: 254.733px;
+    max-height: 16px;
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4d4d4d;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+ }
